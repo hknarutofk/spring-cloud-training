@@ -1,4 +1,4 @@
-package org.example.controller;
+package com.example.servicea.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class IndexController {
-    @Value("${params.p2}")
-    String p2 = "22_default";
+    @Value("${params.p1}")
+    String p1;
 
     @RequestMapping("/getParam")
     public String getParam() {
-        return p2;
+        return p1;
     }
 }
