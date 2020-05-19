@@ -1,21 +1,19 @@
-package org.example.serviceb.controller;
+package org.example.hystrixdashborad.serviceb.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author yeqiang
- * @since 5/19/20 3:16 PM
+ * @author yeqiang@greatwall.com.cn
  */
 @RestController
-@RequestMapping("/bb")
-public class BbApiController {
+public class IndexController {
     @Value("${params.p2}")
-    String p2;
+    String p2 = "22_default";
 
-    @RequestMapping("api1")
-    public String api1() {
+    @RequestMapping("/getParam")
+    public String getParam() {
         return p2;
     }
 }
