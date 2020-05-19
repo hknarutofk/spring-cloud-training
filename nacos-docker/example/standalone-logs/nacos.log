@@ -1,0 +1,192 @@
+2020-05-19 09:17:43,708 INFO Starting Nacos v1.2.1 on f8e02a9ec14a with PID 26 (/home/nacos/target/nacos-server.jar started by root in /home/nacos)
+
+2020-05-19 09:17:43,710 INFO The following profiles are active: standalone
+
+2020-05-19 09:17:46,714 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$6f5dbb72] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-19 09:17:46,839 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-19 09:17:46,841 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4d1bf319' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-19 09:17:46,841 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$94325e24] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-19 09:17:46,853 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-19 09:17:47,531 INFO Tomcat initialized with port(s): 8848 (http)
+
+2020-05-19 09:17:47,594 INFO Starting service [Tomcat]
+
+2020-05-19 09:17:47,594 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-05-19 09:17:47,610 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+
+2020-05-19 09:17:47,963 INFO Initializing Spring embedded WebApplicationContext
+
+2020-05-19 09:17:47,964 INFO Root WebApplicationContext: initialization completed in 4204 ms
+
+2020-05-19 09:17:48,291 INFO Use Mysql as the driver
+
+2020-05-19 09:17:51,862 INFO Reflections took 35 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-05-19 09:17:51,918 INFO Reflections took 3 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-05-19 09:17:51,923 INFO Reflections took 3 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-05-19 09:17:53,558 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-05-19 09:17:53,725 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-05-19 09:17:54,046 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-05-19 09:17:54,075 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25e2a451, org.springframework.security.web.context.SecurityContextPersistenceFilter@53d1b9b3, org.springframework.security.web.header.HeaderWriterFilter@65b3a85a, org.springframework.security.web.csrf.CsrfFilter@62f4ff3b, org.springframework.security.web.authentication.logout.LogoutFilter@788fcafb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@163d04ff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7e928e2f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1698ee84, org.springframework.security.web.session.SessionManagementFilter@57eda880, org.springframework.security.web.access.ExceptionTranslationFilter@4504d271]
+
+2020-05-19 09:17:54,160 INFO Exposing 16 endpoint(s) beneath base path '/actuator'
+
+2020-05-19 09:17:54,184 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-05-19 09:17:54,263 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2020-05-19 09:17:54,440 INFO Started Nacos in 13.965 seconds (JVM running for 15.99)
+
+2020-05-19 09:17:54,440 INFO Nacos logs files: /home/nacos/logs/
+
+2020-05-19 09:17:54,440 INFO Nacos conf files: /home/nacos/conf/
+
+2020-05-19 09:17:54,440 INFO Nacos data files: /home/nacos/data/
+
+2020-05-19 09:17:54,445 INFO Nacos started successfully in stand alone mode.
+
+2020-05-19 09:17:54,548 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-05-19 09:17:54,549 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-05-19 09:17:54,558 INFO Completed initialization in 9 ms
+
+2020-05-19 09:27:52,620 INFO [capacityManagement] start correct usage
+
+2020-05-19 09:27:52,629 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-19 09:27:52,690 WARN clearConfigHistory start
+
+2020-05-19 09:37:52,632 INFO [capacityManagement] start correct usage
+
+2020-05-19 09:37:52,634 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-19 09:37:52,700 WARN clearConfigHistory start
+
+2020-05-19 09:47:52,635 INFO [capacityManagement] start correct usage
+
+2020-05-19 09:47:52,637 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-19 09:47:52,710 WARN clearConfigHistory start
+
+2020-05-19 09:48:59,562 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:48:59,563 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:48:59,762 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:48:59,762 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:49:29,272 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:49:29,272 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:49:58,776 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:49:58,776 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:50:28,279 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:50:28,279 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:50:57,781 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:50:57,781 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:51:27,284 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:51:27,284 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:51:46,092 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:51:46,093 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:51:46,292 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:51:46,292 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:52:14,023 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:52:14,023 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:52:14,222 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:52:14,222 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:52:43,731 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:52:43,731 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:53:13,234 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:53:13,234 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:53:17,510 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:53:17,510 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:53:17,710 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:53:17,710 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:53:47,214 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:53:47,214 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:54:00,179 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:54:00,179 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:54:00,378 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:54:00,379 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:55:26,952 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:55:26,952 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:55:27,152 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:55:27,152 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:55:56,657 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:55:56,657 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:56:26,160 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:56:26,160 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:56:55,663 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:56:55,663 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:57:25,167 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:57:25,167 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:57:52,637 INFO [capacityManagement] start correct usage
+
+2020-05-19 09:57:52,639 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-19 09:57:52,711 WARN clearConfigHistory start
+
+2020-05-19 09:57:54,670 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:57:54,670 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:58:24,173 INFO listen config id:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+
+2020-05-19 09:58:24,173 INFO listen config id 2:service-aDEFAULT_GROUPservice-a.propertiesDEFAULT_GROUP
+

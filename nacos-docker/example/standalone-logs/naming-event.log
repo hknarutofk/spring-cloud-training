@@ -1,0 +1,48 @@
+2020-05-19 09:48:59,551 INFO DEFAULT_GROUP@@service-a {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.51.72.191:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-05-19 09:48:59,553 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-a, ips: 10.51.72.191:8080_true,
+
+2020-05-19 09:51:42,370 INFO DEFAULT_GROUP@@service-a {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.51.72.191:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-05-19 09:51:42,370 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-a, ips: 
+
+2020-05-19 09:51:46,077 INFO DEFAULT_GROUP@@service-a {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.51.72.191:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-05-19 09:51:46,077 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-a, ips: 10.51.72.191:8080_true,
+
+2020-05-19 09:52:10,099 INFO DEFAULT_GROUP@@service-a {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.51.72.191:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-05-19 09:52:10,099 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-a, ips: 
+
+2020-05-19 09:52:14,012 INFO DEFAULT_GROUP@@service-a {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.51.72.191:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-05-19 09:52:14,012 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-a, ips: 10.51.72.191:8080_true,
+
+2020-05-19 09:53:14,449 INFO DEFAULT_GROUP@@service-a {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.51.72.191:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-05-19 09:53:14,449 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-a, ips: 
+
+2020-05-19 09:53:17,494 INFO DEFAULT_GROUP@@service-a {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.51.72.191:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-05-19 09:53:17,494 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-a, ips: 10.51.72.191:8080_true,
+
+2020-05-19 09:53:57,115 INFO DEFAULT_GROUP@@service-a {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.51.72.191:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-05-19 09:53:57,115 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-a, ips: 
+
+2020-05-19 09:54:00,163 INFO DEFAULT_GROUP@@service-a {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.51.72.191:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-05-19 09:54:00,163 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-a, ips: 10.51.72.191:8080_true,
+
+2020-05-19 09:54:08,134 INFO DEFAULT_GROUP@@service-a {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.51.72.191:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-05-19 09:54:08,134 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-a, ips: 
+
+2020-05-19 09:55:26,914 INFO DEFAULT_GROUP@@service-a {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.51.72.191:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-05-19 09:55:26,914 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-a, ips: 10.51.72.191:8080_true,
+
+2020-05-19 09:58:48,932 INFO DEFAULT_GROUP@@service-a {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.51.72.191:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-05-19 09:58:48,932 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-a, ips: 
+
