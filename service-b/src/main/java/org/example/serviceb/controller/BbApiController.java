@@ -1,19 +1,21 @@
-package org.example.hystrixdashborad.serviceb.controller;
+package org.example.serviceb.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author yeqiang@greatwall.com.cn
+ * @author yeqiang
+ * @since 5/19/20 3:16 PM
  */
 @RestController
-public class IndexController {
+@RequestMapping("/bb")
+public class BbApiController {
     @Value("${params.p2}")
-    String p2 = "22_default";
+    String p2;
 
-    @RequestMapping("/getParam")
-    public String getParam() {
+    @RequestMapping("api1")
+    public String api1() throws InterruptedException {
         return p2;
     }
 }
