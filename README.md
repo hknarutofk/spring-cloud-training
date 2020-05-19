@@ -16,6 +16,18 @@ API接口 | Swagger2 | .
 
 
 
+开发环境
+
+系统/软件 | 版本信息
+---|---
+Fedora31 | Linux localhost.localdomain 5.3.8-300.fc31.x86_64 #1 SMP Tue Oct 29 14:28:41 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux 
+docker   |  19.03.4
+
+
+
+
+
+
 第一步：搭建基础Spring Cloud框架，采用nacos，排除Eureka、config server
 
 
