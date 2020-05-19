@@ -37,7 +37,7 @@
     <logger name="org.springframework" level="INFO"/>
     <logger name="org.apache" level="INFO"/>
     <logger name="com.netflix" level="INFO"/>
-    <logger name="io.lettuce" level="INFO"/>
+    <logger name="com.alibaba.nacos" level="INFO"/>
 
     <root level="DEBUG">
         <appender-ref ref="stdout"/>
