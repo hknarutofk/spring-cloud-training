@@ -11,6 +11,6 @@ import com.example.servicea.service.impl.ServiceBFallback;
  */
 @FeignClient(value = "service-b", fallback = ServiceBFallback.class)
 public interface ServiceB {
-    @RequestMapping(value = "/bb/api1")
+    @RequestMapping(value = "/service-b/bb/api1")
     String api1();
 }
