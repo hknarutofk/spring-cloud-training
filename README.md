@@ -16,12 +16,13 @@ API接口 | Swagger2 | .
 服务注册、发现 | Nacos | 
 负载均衡 | Ribbon | 
 服务消费 | Feign |
-熔断器 | Hystrix |
-路由网关 | Gateway |
+熔断器 | Hystrix（下一步alibaba/sentinel） |
+路由网关 | Gateway（下一步kong） |
 配置中心 | Nacos |
 服务链路跟踪 | Spring Cloud Sleuth |
 微服务监控 | Spring Boot Admin | 
 分布式安全框架 | Spring Security OAuth2 | 
+日志收集、展示 | ELK | 
 
 
 

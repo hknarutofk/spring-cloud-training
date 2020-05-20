@@ -14,5 +14,6 @@
         <module>service-a</module>
         <module>service-b</module>
         <module>hystrix-dashboard</module>
+        <module>gateway</module>
     </modules>
 </project>
