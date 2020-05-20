@@ -1,4 +1,4 @@
 #!/bin/bash
-
-docker-compose -f example/standalone-mysql-5.7.yaml up
+cd example 
+docker-compose -f standalone-mysql-5.7.yaml up
 

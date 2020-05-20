@@ -1,13 +1,13 @@
 # spring-cloud-training
 
-# 开发规范
+## 开发规范
 阿里巴巴Java开发手册（泰山版）.pdf
 https://github.com/alibaba/p3c/blob/master/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4Java%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C%EF%BC%88%E6%B3%B0%E5%B1%B1%E7%89%88%EF%BC%89.pdf
 
 ## 代码格式化
 https://github.com/alibaba/p3c/tree/master/p3c-formatter
 
-# 架构选型
+## 架构选型
 功能|框架|版本
 ---|---|---
 分布式框架 | Spring Cloud | 。
@@ -25,12 +25,20 @@ API接口 | Swagger2 | .
 
 
 
-开发环境
+## 开发环境
 
 系统/软件 | 版本信息
 ---|---
 Fedora31 | Linux localhost.localdomain 5.3.8-300.fc31.x86_64 #1 SMP Tue Oct 29 14:28:41 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux 
 docker   |  19.03.4
+
+
+
+## 启动步骤
+
+cd nacos-docker
+
+sh start.sh
 
 
 
