@@ -33,17 +33,15 @@ API接口 | Swagger2 | .
 Fedora31 | Linux localhost.localdomain 5.3.8-300.fc31.x86_64 #1 SMP Tue Oct 29 14:28:41 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux 
 docker   |  19.03.4
 
-
+## zipkin配置
+https://cloud.spring.io/spring-cloud-static/spring-cloud-sleuth/2.2.2.RELEASE/reference/html/#sending-spans-to-zipkin
 
 ## 启动步骤
 
+```
 cd nacos-docker
-
 sh start.sh
-
-
-
-
+```
 
 
 第一步：搭建基础Spring Cloud框架，采用nacos，排除Eureka、config server
